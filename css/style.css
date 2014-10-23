@@ -27,7 +27,7 @@ h3{
 	margin: auto;
 }
 .header-top{
-	background: url('http://templated.co/items/demos/solarize/images/banner.jpg') no-repeat 50% 0;
+	background: url('../img/banner.jpg') no-repeat 50% 0;
 	color: #ffffff;
 	text-align: center;
 	padding-bottom: 100px;
@@ -180,22 +180,10 @@ p+.button, p+button{
 span{
 	margin-right: 15px;
 }
-span.fa-cogs:before{
-    content: "\f085";
-}
-span.fa-wrench:before{
-    content: "\f0ad";
-}
-span.fa-leaf:before{
-    content: "\f06c";
-}
-.list-img{
+.fa{
     font-size: 21px;
     color: #82B440;
     line-height: 39px;
-}
-.list-img:before{
-    content: "\f0ad";
 }
 .cl-1 p, .cl-2 p, .cl-3 p, .cl-4 p{
 	font-size: 15px;
